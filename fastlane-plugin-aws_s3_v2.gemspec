@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/aws_s3/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-aws_s3'
+  spec.name          = 'fastlane-plugin-aws_s3_v2'
   spec.version       = Fastlane::AwsS3::VERSION
-  spec.author        = %q{Josh Holtz}
-  spec.email         = %q{josh@rokkincat.com}
+  spec.author        = %q{Arnon Keereena}
+  spec.email         = %q{a.keereena@gmail.com}
 
   spec.summary       = %q{Upload IPA and APK to S3}
-  spec.homepage      = "https://github.com/joshdholtz/fastlane-plugin-s3"
+  spec.homepage      = "https://github.com/myste1tainn/fastlane-plugin-s3_v2"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
